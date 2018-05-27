@@ -20,8 +20,8 @@ public class Address {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
 
-    @OneToMany(mappedBy = "address")
-    private List<Restaurant> restaurant;
+    @OneToOne(mappedBy = "address")
+    private Restaurant restaurant;
 
     private String city;
     private String street;
