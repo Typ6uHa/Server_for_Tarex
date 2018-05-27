@@ -45,6 +45,6 @@ public class User {
     @OneToMany(mappedBy = "user")
     List<Token> tokens;
 
-    @OneToOne(mappedBy = "user")
-    private Reservation reservation;
+    @OneToMany(mappedBy = "user")
+    private List<Reservation> reservation;
 }

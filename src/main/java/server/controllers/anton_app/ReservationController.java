@@ -13,11 +13,11 @@ import server.services.ReservationService;
 public class ReservationController {
 
     @Autowired
-    ReservationService reservationService;
+    private ReservationService reservationService;
 
     @PostMapping("/reservation")
-    ResponseEntity <ReservationForm> reservation (@RequestBody ReservationForm reservationForm){
-        reservationService.reservation(reservationForm.getUserToken(),reservationForm.getRestaurant_id(),reservationForm.getTime(),reservationForm.getDay(),reservationForm.getCountPeople());
-        return ResponseEntity.ok().build();
+    public ResponseEntity <ReservationForm> reservation (@RequestBody ReservationForm reservationForm){
+        reservationService.reservation(reservationForm);
+        return ResponseEntity.ok(reservationForm);
     }
 }

@@ -56,7 +56,7 @@ public class Restaurant {
     @OneToMany(mappedBy = "restaurant")
     private List<Review> reviews;
 
-    @OneToOne(mappedBy = "restaurant")
-    private Reservation reservation;
+    @OneToMany(mappedBy = "restaurant")
+    private List<Reservation> reservation;
 
 }
