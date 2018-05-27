@@ -2,84 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7e41e72-b1fa-42c5-81d3-6045653a99c1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_1_5_12_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_4_2_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_4_2_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_4_2_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/server/controllers/aizat_app/LoginRestaurantController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/server/controllers/anton_app/LoginController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/server/controllers/anton_app/RegistrationController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/server/controllers/anton_app/ReservationController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/server/controllers/anton_app/RestaurantController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/server/controllers/anton_app/UsersController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/server/forms/LoginForm.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/server/forms/LoginRestaurantForm.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/server/forms/UserForm.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/server/model/Login.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/server/model/LoginRestaurant.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/server/model/Menu.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/server/model/Product.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/server/model/Restaurants.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/server/model/Role.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/server/model/State.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/server/model/TokenRestaurant.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/server/repositories/anton_app/TokensRestaurantRepository.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/server/repositories/anton_app/UsersRepository.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/server/security/config/WebSecurityConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/server/security/details/UserDetailsImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/server/security/details/UserDetailsServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/server/security/filters/TokenAuthFilter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/server/security/provider/TokenAythenticationProvider.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/server/security/token/TokenAuthentication.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/server/services/LoginRestaurantService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/server/services/LoginRestaurantServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/server/services/LoginService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/server/services/LoginServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/server/services/UserService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/server/services/UserServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/server/transfer/RestaurantDto.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/server/transfer/TokenDto.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/server/transfer/UserDto.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/server/controllers/RestaurantController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/server/controllers/UsersController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/server/repositories/UsersRepository.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/server/controllers/RestaurantController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/server/controllers/UsersController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/server/repositories/AddressesRepository.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/server/repositories/FurutesRepository.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/server/repositories/RaitingRepository.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/server/repositories/RestaurantRepository.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/server/repositories/ReviewRepository.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/server/repositories/TokensRepository.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/server/repositories/UsersRepository.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/server/repositories/AddressesRepository.java" afterPath="$PROJECT_DIR$/src/main/java/server/repositories/anton_app/AddressesRepository.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/server/repositories/FurutesRepository.java" afterPath="$PROJECT_DIR$/src/main/java/server/repositories/anton_app/FurutesRepository.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/server/repositories/RaitingRepository.java" afterPath="$PROJECT_DIR$/src/main/java/server/repositories/anton_app/RaitingRepository.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/server/repositories/RestaurantRepository.java" afterPath="$PROJECT_DIR$/src/main/java/server/repositories/anton_app/RestaurantRepository.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/server/repositories/ReviewRepository.java" afterPath="$PROJECT_DIR$/src/main/java/server/repositories/anton_app/ReviewRepository.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/server/repositories/TokensRepository.java" afterPath="$PROJECT_DIR$/src/main/java/server/repositories/anton_app/TokensRepository.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/7ce0b0cf-6925-4495-aac9-86e5dc12ffe6/_metadata_/metadata" afterPath="$PROJECT_DIR$/.idea/dataSources/7ce0b0cf-6925-4495-aac9-86e5dc12ffe6/_metadata_/metadata" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/7ce0b0cf-6925-4495-aac9-86e5dc12ffe6/_metadata_/metadata.values.at" afterPath="$PROJECT_DIR$/.idea/dataSources/7ce0b0cf-6925-4495-aac9-86e5dc12ffe6/_metadata_/metadata.values.at" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/server/app/Application.class" afterPath="$PROJECT_DIR$/target/classes/server/app/Application.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/server/model/Address$AddressBuilder.class" afterPath="$PROJECT_DIR$/target/classes/server/model/Address$AddressBuilder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/server/model/Address.class" afterPath="$PROJECT_DIR$/target/classes/server/model/Address.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/server/model/Rating$RatingBuilder.class" afterPath="$PROJECT_DIR$/target/classes/server/model/Rating$RatingBuilder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/server/model/Rating.class" afterPath="$PROJECT_DIR$/target/classes/server/model/Rating.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/server/model/Restaurant$RestaurantBuilder.class" afterPath="$PROJECT_DIR$/target/classes/server/model/Restaurant$RestaurantBuilder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/server/model/Restaurant.class" afterPath="$PROJECT_DIR$/target/classes/server/model/Restaurant.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/server/model/User$UserBuilder.class" afterPath="$PROJECT_DIR$/target/classes/server/model/User$UserBuilder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/server/model/User.class" afterPath="$PROJECT_DIR$/target/classes/server/model/User.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/server/forms/ReservationForm.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/server/model/Reservation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/server/model/StatusReservation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/server/repositories/anton_app/ReservationRepository.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/server/services/ReservationService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/server/services/ReservationServiceImpl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/7ce0b0cf-6925-4495-aac9-86e5dc12ffe6.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/7ce0b0cf-6925-4495-aac9-86e5dc12ffe6.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Server_for_Tarex.iml" afterPath="$PROJECT_DIR$/Server_for_Tarex.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/server/app/Application.java" afterPath="$PROJECT_DIR$/src/main/java/server/app/Application.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/server/model/Address.java" afterPath="$PROJECT_DIR$/src/main/java/server/model/Address.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/server/model/Rating.java" afterPath="$PROJECT_DIR$/src/main/java/server/model/Rating.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/server/controllers/anton_app/ReservationController.java" afterPath="$PROJECT_DIR$/src/main/java/server/controllers/anton_app/ReservationController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/server/controllers/anton_app/RestaurantController.java" afterPath="$PROJECT_DIR$/src/main/java/server/controllers/anton_app/RestaurantController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/server/model/Restaurant.java" afterPath="$PROJECT_DIR$/src/main/java/server/model/Restaurant.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/server/model/Review.java" afterPath="$PROJECT_DIR$/src/main/java/server/model/Review.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/server/model/Token.java" afterPath="$PROJECT_DIR$/src/main/java/server/model/Token.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/server/model/User.java" afterPath="$PROJECT_DIR$/src/main/java/server/model/User.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/server/repositories/anton_app/RestaurantRepository.java" afterPath="$PROJECT_DIR$/src/main/java/server/repositories/anton_app/RestaurantRepository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/server/repositories/anton_app/TokensRepository.java" afterPath="$PROJECT_DIR$/src/main/java/server/repositories/anton_app/TokensRepository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/server/repositories/anton_app/UsersRepository.java" afterPath="$PROJECT_DIR$/src/main/java/server/repositories/anton_app/UsersRepository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/server/services/UserService.java" afterPath="$PROJECT_DIR$/src/main/java/server/services/UserService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/server/services/UserServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/server/services/UserServiceImpl.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -121,12 +60,79 @@
         <item name="public" type="e3449647:DbNodeDescriptor" />
         <item name="" type="fce03ad6:DatabaseStructure$GroupNode" />
       </path>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="db_Tarex@localhost" type="e3449647:DbNodeDescriptor" />
+        <item name="db_Tarex" type="e3449647:DbNodeDescriptor" />
+        <item name="public" type="e3449647:DbNodeDescriptor" />
+        <item name="" type="fce03ad6:DatabaseStructure$GroupNode" />
+        <item name="user_db" type="e3449647:DbNodeDescriptor" />
+      </path>
     </expand>
     <select />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="user_db" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Reservation.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/server/model/Reservation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="278">
+              <caret line="28" column="37" lean-forward="false" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReservationServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/server/services/ReservationServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="32" column="36" lean-forward="false" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="restaurant" pinned="false" current-in-tab="false">
+        <entry file="das://table:/c1f4d9f6/7ce0b0cf-6925-4495-aac9-86e5dc12ffe6/db_Tarex.public.restaurant">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="token" pinned="false" current-in-tab="false">
+        <entry file="das://table:/c1f4d9f6/7ce0b0cf-6925-4495-aac9-86e5dc12ffe6/db_Tarex.public.token">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/server/services/UserServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="267">
+              <caret line="67" column="48" lean-forward="false" selection-start-line="67" selection-start-column="48" selection-end-line="67" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="review_db" pinned="false" current-in-tab="false">
+        <entry file="das://table:/c1f4d9f6/7ce0b0cf-6925-4495-aac9-86e5dc12ffe6/db_Tarex.public.review_db">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user_db" pinned="false" current-in-tab="true">
         <entry file="das://table:/c1f4d9f6/7ce0b0cf-6925-4495-aac9-86e5dc12ffe6/db_Tarex.public.user_db">
           <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
             <state>
@@ -135,28 +141,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginRestaurantForm.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/server/forms/LoginRestaurantForm.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="8" column="18" lean-forward="false" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserForm.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/server/forms/UserForm.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="token_restaurant" pinned="false" current-in-tab="false">
-        <entry file="das://table:/c1f4d9f6/7ce0b0cf-6925-4495-aac9-86e5dc12ffe6/db_Tarex.public.token_restaurant">
+      <file leaf-file-name="reservation" pinned="false" current-in-tab="false">
+        <entry file="das://table:/c1f4d9f6/7ce0b0cf-6925-4495-aac9-86e5dc12ffe6/db_Tarex.public.reservation">
           <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
             <state>
               <filtering enabled="true" />
@@ -164,51 +150,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReservationController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/server/controllers/anton_app/ReservationController.java">
+      <file leaf-file-name="Restaurant.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/server/model/Restaurant.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RestaurantController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/server/controllers/anton_app/RestaurantController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RegistrationController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/server/controllers/anton_app/RegistrationController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/server/services/UserServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="27" column="49" lean-forward="false" selection-start-line="27" selection-start-column="49" selection-end-line="27" selection-end-column="49" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/server/services/UserService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="8" column="9" lean-forward="false" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+            <state relative-caret-position="261">
+              <caret line="58" column="36" lean-forward="false" selection-start-line="58" selection-start-column="36" selection-end-line="58" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -217,8 +163,8 @@
       <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/server/model/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="31" column="32" lean-forward="false" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
+            <state relative-caret-position="301">
+              <caret line="47" column="30" lean-forward="false" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -229,6 +175,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -242,20 +189,12 @@
       <projects_view />
     </option>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="dummy://restClient/response71.txt" root0="SKIP_INSPECTION" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/server/model/Rating.java" />
-        <option value="$PROJECT_DIR$/src/main/java/server/transfer/UserDto.java" />
-        <option value="$PROJECT_DIR$/src/main/java/server/services/AddressesService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/server/model/State.java" />
-        <option value="$PROJECT_DIR$/src/main/java/server/security/details/UserDetailsImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/server/model/Role.java" />
-        <option value="$PROJECT_DIR$/src/main/java/server/security/details/UserDetailsServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/server/security/filters/TokenAuthFilter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/server/forms/LoginForm.java" />
-        <option value="$PROJECT_DIR$/src/main/java/server/services/UserService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/server/services/RegistrationService.java" />
         <option value="$PROJECT_DIR$/src/main/java/server/controllers/RegistrationController.java" />
         <option value="$PROJECT_DIR$/src/main/java/server/repositories/UsersRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/server/services/LoginServiceImpl.java" />
@@ -280,22 +219,33 @@
         <option value="$PROJECT_DIR$/src/main/java/server/controllers/anton_app/LoginController.java" />
         <option value="$PROJECT_DIR$/src/main/java/server/model/LoginRestaurant.java" />
         <option value="$PROJECT_DIR$/src/main/java/server/forms/LoginRestaurantForm.java" />
-        <option value="$PROJECT_DIR$/src/main/java/server/repositories/anton_app/RestaurantRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/server/services/LoginRestaurantService.java" />
         <option value="$PROJECT_DIR$/src/main/java/server/model/TokenRestaurant.java" />
         <option value="$PROJECT_DIR$/src/main/java/server/transfer/RestaurantDto.java" />
         <option value="$PROJECT_DIR$/src/main/java/server/transfer/TokenDto.java" />
-        <option value="$PROJECT_DIR$/src/main/java/server/repositories/anton_app/TokensRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/server/repositories/anton_app/TokensRestaurantRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/server/services/LoginRestaurantServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/server/controllers/aizat_app/LoginRestaurantController.java" />
         <option value="$PROJECT_DIR$/src/main/java/server/model/Address.java" />
         <option value="$PROJECT_DIR$/src/main/java/server/model/Menu.java" />
-        <option value="$PROJECT_DIR$/src/main/java/server/model/Restaurant.java" />
         <option value="$PROJECT_DIR$/src/main/java/server/model/Product.java" />
-        <option value="$PROJECT_DIR$/src/main/java/server/model/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/server/forms/UserForm.java" />
+        <option value="$PROJECT_DIR$/src/main/java/server/model/StatusReservation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/server/forms/ReservationForm.java" />
+        <option value="$PROJECT_DIR$/src/main/java/server/controllers/anton_app/ReservationController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/server/services/ReservationService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/server/repositories/anton_app/TokensRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/server/services/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/server/repositories/anton_app/UsersRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/server/services/UserServiceImpl.java" />
+        <option value="src:table:/c1f4d9f6/7ce0b0cf-6925-4495-aac9-86e5dc12ffe6/db_Tarex.public.reservation" />
+        <option value="$PROJECT_DIR$/src/main/java/server/repositories/anton_app/RestaurantRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/server/controllers/anton_app/RestaurantController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/server/repositories/anton_app/ReservationRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/server/model/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/server/model/Reservation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/server/model/Restaurant.java" />
+        <option value="$PROJECT_DIR$/src/main/java/server/services/ReservationServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -345,8 +295,8 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -555,9 +505,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="server.services" />
-      <recent name="server.model" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Aizat\Desktop\Server_for_Tarex\src\main\java\server" />
+      <recent name="C:\Users\Aizat\Desktop\Server_for_Tarex\src\main\java\server\services" />
+      <recent name="C:\Users\Aizat\Desktop\spring_homeworks\Server_for_Tarex\src\main\java\server" />
+      <recent name="C:\Users\Aizat\Desktop\spring_homeworks\Server_for_Tarex\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="server.controllers" />
@@ -565,16 +517,264 @@
       <recent name="server.transfer" />
       <recent name="server.app" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Aizat\Desktop\Server_for_Tarex\src\main\java\server" />
-      <recent name="C:\Users\Aizat\Desktop\Server_for_Tarex\src\main\java\server\services" />
-      <recent name="C:\Users\Aizat\Desktop\spring_homeworks\Server_for_Tarex\src\main\java\server" />
-      <recent name="C:\Users\Aizat\Desktop\spring_homeworks\Server_for_Tarex\src\main\resources" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="server.services" />
+      <recent name="server.model" />
     </key>
   </component>
   <component name="RestClientSettings">
     <option name="REQUEST_HISTORY">
       <list>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="2EFDE871022EE827F43E785D9FE03A9D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="/reservation" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{   &quot;userToken&quot;: &quot;IMgN06fmpF&quot;,   &quot;restaurant_id&quot;: &quot;5&quot;,   &quot;time&quot;: &quot;19:00&quot;,   &quot;day&quot;: &quot;Monday&quot;,   &quot;countPeople&quot;: &quot;3&quot; }" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="2EFDE871022EE827F43E785D9FE03A9D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="/reservation" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{   &quot;userToken&quot;: &quot;YOOsObQEx8&quot;,   &quot;restaurant_id&quot;: &quot;5&quot;,   &quot;time&quot;: &quot;19:00&quot;,   &quot;day&quot;: &quot;Monday&quot;,   &quot;countPeople&quot;: &quot;3&quot; }" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="2EFDE871022EE827F43E785D9FE03A9D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="/reservation" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{   &quot;userToken&quot;: &quot;YOOsObQEx8&quot;,   &quot;restaurantId&quot;: &quot;5&quot;,   &quot;time&quot;: &quot;19:00&quot;,   &quot;day&quot;: &quot;Monday&quot;,   &quot;countPeople&quot;: &quot;3&quot; }" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="2EFDE871022EE827F43E785D9FE03A9D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="/reservation" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{   &quot;userToken&quot;: &quot;YOOsObQEx8&quot;,   &quot;restaurantId&quot;: &quot;1&quot;,   &quot;time&quot;: &quot;19:00&quot;,   &quot;day&quot;: &quot;Monday&quot;,   &quot;countPeople&quot;: &quot;3&quot; }" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="2EFDE871022EE827F43E785D9FE03A9D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="/reservation" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{   &quot;userToken&quot;:&quot;YOOsObQEx8&quot;,   &quot;restaurant_id&quot; : &quot;1&quot;,   &quot;time&quot;: &quot;19:00&quot;,   &quot;day&quot;: &quot;Monday&quot;,   &quot;countPeople&quot;:&quot;3&quot; }" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="2EFDE871022EE827F43E785D9FE03A9D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="/restaurant/id/2" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="2EFDE871022EE827F43E785D9FE03A9D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="/restaurant" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
         <RestClientRequest>
           <option name="biscuits">
             <list>
@@ -2844,368 +3044,6 @@
           <option name="textToSend" value="{  &quot;token&quot;: &quot;hgXwT4MLX8&quot; }" />
           <option name="filesToSend" value="" />
         </RestClientRequest>
-        <RestClientRequest>
-          <option name="biscuits">
-            <list>
-              <Biscuit>
-                <option name="date" value="-1" />
-                <option name="domain" value="localhost" />
-                <option name="name" value="JSESSIONID" />
-                <option name="path" value="/" />
-                <option name="value" value="0F4D9FA2F0696AEB107E2FF44CD5483B" />
-              </Biscuit>
-            </list>
-          </option>
-          <option name="httpMethod" value="GET" />
-          <option name="urlBase" value="http://localhost:8080" />
-          <option name="urlPath" value="/login/" />
-          <option name="headers">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="Accept" />
-                <option name="value" value="*/*" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Cache-Control" />
-                <option name="value" value="no-cache" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Content-Type" />
-                <option name="value" value="application/json" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="parameters">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="" />
-                <option name="value" value="" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="token" />
-                <option name="value" value="hgXwT4MLX8" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="token?" />
-                <option name="value" value="hgXwT4MLX8" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="token" />
-                <option name="value" value="hgXwT4MLX8" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="parametersEnabled" value="true" />
-          <option name="textToSend" value="{  &quot;token&quot;: &quot;hgXwT4MLX8&quot; }" />
-          <option name="filesToSend" value="" />
-        </RestClientRequest>
-        <RestClientRequest>
-          <option name="biscuits">
-            <list>
-              <Biscuit>
-                <option name="date" value="-1" />
-                <option name="domain" value="localhost" />
-                <option name="name" value="JSESSIONID" />
-                <option name="path" value="/" />
-                <option name="value" value="0F4D9FA2F0696AEB107E2FF44CD5483B" />
-              </Biscuit>
-            </list>
-          </option>
-          <option name="httpMethod" value="Get" />
-          <option name="urlBase" value="http://localhost:8080" />
-          <option name="urlPath" value="/login/" />
-          <option name="headers">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="Accept" />
-                <option name="value" value="*/*" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Cache-Control" />
-                <option name="value" value="no-cache" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Content-Type" />
-                <option name="value" value="application/json" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="parameters">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="" />
-                <option name="value" value="" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="token" />
-                <option name="value" value="hgXwT4MLX8" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="token?" />
-                <option name="value" value="hgXwT4MLX8" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="parametersEnabled" value="true" />
-          <option name="textToSend" value="{  &quot;token&quot;: &quot;hgXwT4MLX8&quot; }" />
-          <option name="filesToSend" value="" />
-        </RestClientRequest>
-        <RestClientRequest>
-          <option name="biscuits">
-            <list>
-              <Biscuit>
-                <option name="date" value="-1" />
-                <option name="domain" value="localhost" />
-                <option name="name" value="JSESSIONID" />
-                <option name="path" value="/" />
-                <option name="value" value="0F4D9FA2F0696AEB107E2FF44CD5483B" />
-              </Biscuit>
-            </list>
-          </option>
-          <option name="httpMethod" value="GET" />
-          <option name="urlBase" value="http://localhost:8080" />
-          <option name="urlPath" value="/login/" />
-          <option name="headers">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="Accept" />
-                <option name="value" value="*/*" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Cache-Control" />
-                <option name="value" value="no-cache" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Content-Type" />
-                <option name="value" value="application/json" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="parameters">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="" />
-                <option name="value" value="" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="token" />
-                <option name="value" value="hgXwT4MLX8" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="token?" />
-                <option name="value" value="hgXwT4MLX8" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="parametersEnabled" value="true" />
-          <option name="textToSend" value="{  &quot;token&quot;: &quot;hgXwT4MLX8&quot; }" />
-          <option name="filesToSend" value="" />
-        </RestClientRequest>
-        <RestClientRequest>
-          <option name="biscuits">
-            <list>
-              <Biscuit>
-                <option name="date" value="-1" />
-                <option name="domain" value="localhost" />
-                <option name="name" value="JSESSIONID" />
-                <option name="path" value="/" />
-                <option name="value" value="9B475A0CDC35F8E9DD97FF685147D184" />
-              </Biscuit>
-            </list>
-          </option>
-          <option name="httpMethod" value="GET" />
-          <option name="urlBase" value="http://localhost:8080" />
-          <option name="urlPath" value="/login" />
-          <option name="headers">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="Accept" />
-                <option name="value" value="*/*" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Cache-Control" />
-                <option name="value" value="no-cache" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Content-Type" />
-                <option name="value" value="application/json" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="parameters">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="" />
-                <option name="value" value="" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="token" />
-                <option name="value" value="hgXwT4MLX8" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="token?" />
-                <option name="value" value="hgXwT4MLX8" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="parametersEnabled" value="true" />
-          <option name="textToSend" value="{  &quot;token&quot;: &quot;hgXwT4MLX8&quot; }" />
-          <option name="filesToSend" value="" />
-        </RestClientRequest>
-        <RestClientRequest>
-          <option name="biscuits">
-            <list>
-              <Biscuit>
-                <option name="date" value="-1" />
-                <option name="domain" value="localhost" />
-                <option name="name" value="JSESSIONID" />
-                <option name="path" value="/" />
-                <option name="value" value="9B475A0CDC35F8E9DD97FF685147D184" />
-              </Biscuit>
-            </list>
-          </option>
-          <option name="httpMethod" value="POST" />
-          <option name="urlBase" value="http://localhost:8080" />
-          <option name="urlPath" value="/login" />
-          <option name="headers">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="Accept" />
-                <option name="value" value="*/*" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Cache-Control" />
-                <option name="value" value="no-cache" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Content-Type" />
-                <option name="value" value="application/json" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="parameters">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="" />
-                <option name="value" value="" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="token" />
-                <option name="value" value="hgXwT4MLX8" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="token?" />
-                <option name="value" value="hgXwT4MLX8" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="parametersEnabled" value="true" />
-          <option name="textToSend" value="{  &quot;token&quot;: &quot;hgXwT4MLX8&quot; }" />
-          <option name="filesToSend" value="" />
-        </RestClientRequest>
-        <RestClientRequest>
-          <option name="biscuits">
-            <list>
-              <Biscuit>
-                <option name="date" value="-1" />
-                <option name="domain" value="localhost" />
-                <option name="name" value="JSESSIONID" />
-                <option name="path" value="/" />
-                <option name="value" value="74E6434E433ED3431B38AA81CE72136E" />
-              </Biscuit>
-            </list>
-          </option>
-          <option name="httpMethod" value="POST" />
-          <option name="urlBase" value="http://localhost:8080" />
-          <option name="urlPath" value="/login/" />
-          <option name="headers">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="Accept" />
-                <option name="value" value="*/*" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Cache-Control" />
-                <option name="value" value="no-cache" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Content-Type" />
-                <option name="value" value="application/json" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="parameters">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="" />
-                <option name="value" value="" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="token" />
-                <option name="value" value="hgXwT4MLX8" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="token?" />
-                <option name="value" value="hgXwT4MLX8" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="parametersEnabled" value="true" />
-          <option name="haveTextToSend" value="true" />
-          <option name="textToSend" value="{  &quot;token&quot;: &quot;hgXwT4MLX8&quot; }" />
-          <option name="filesToSend" value="" />
-        </RestClientRequest>
-        <RestClientRequest>
-          <option name="biscuits">
-            <list>
-              <Biscuit>
-                <option name="date" value="-1" />
-                <option name="domain" value="localhost" />
-                <option name="name" value="JSESSIONID" />
-                <option name="path" value="/" />
-                <option name="value" value="74E6434E433ED3431B38AA81CE72136E" />
-              </Biscuit>
-            </list>
-          </option>
-          <option name="httpMethod" value="POST" />
-          <option name="urlBase" value="http://localhost:8080" />
-          <option name="urlPath" value="/login/" />
-          <option name="headers">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="Accept" />
-                <option name="value" value="*/*" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Cache-Control" />
-                <option name="value" value="no-cache" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Content-Type" />
-                <option name="value" value="application/json" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="parameters">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="" />
-                <option name="value" value="" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="token" />
-                <option name="value" value="hgXwT4MLX8" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="token?" />
-                <option name="value" value="hgXwT4MLX8" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="parametersEnabled" value="true" />
-          <option name="textToSend" value="{  &quot;token&quot;: &quot;hgXwT4MLX8&quot; }" />
-          <option name="filesToSend" value="" />
-        </RestClientRequest>
       </list>
     </option>
   </component>
@@ -3344,12 +3182,21 @@
       <workItem from="1527109882651" duration="793000" />
       <workItem from="1527110751305" duration="19673000" />
       <workItem from="1527350484907" duration="21513000" />
-      <workItem from="1527426530743" duration="1967000" />
+      <workItem from="1527426530743" duration="10007000" />
+      <workItem from="1527442992341" duration="7740000" />
     </task>
+    <task id="LOCAL-00001" summary="commit">
+      <created>1527429424183</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1527429424184</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78756000" />
+    <option name="totallyTimeSpent" value="94536000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -3371,15 +3218,16 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5025707" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969153" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33055556" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3013889" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18508998" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18766066" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1651671" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3611825" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -3391,7 +3239,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3513889" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -3401,137 +3248,79 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/server/services/ReservationServiceImpl.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="6" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/server/services/LoginService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/server/transfer/UserDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="24" column="5" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="24" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/server/repositories/anton_app/TokensRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="9" column="51" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/server/security/provider/TokenAythenticationProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="37" column="37" lean-forward="false" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/server/services/LoginServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/server/repositories/anton_app/AddressesRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/server/services/LoginRestaurantService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="14" lean-forward="false" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/server/transfer/RestaurantDto.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/server/services/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
-          <caret line="15" column="33" lean-forward="false" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+          <caret line="17" column="35" lean-forward="false" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="das://table:/c1f4d9f6/7ce0b0cf-6925-4495-aac9-86e5dc12ffe6/db_Tarex.public.address">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/c1f4d9f6/7ce0b0cf-6925-4495-aac9-86e5dc12ffe6/db_Tarex.public.review_db">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/c1f4d9f6/7ce0b0cf-6925-4495-aac9-86e5dc12ffe6/db_Tarex.public.rating">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/server/controllers/anton_app/UsersController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/server/repositories/anton_app/UsersRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        <state relative-caret-position="136">
+          <caret line="12" column="32" lean-forward="false" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="das://table:/c1f4d9f6/7ce0b0cf-6925-4495-aac9-86e5dc12ffe6/db_Tarex.public.token">
+    <entry file="das://table:/c1f4d9f6/7ce0b0cf-6925-4495-aac9-86e5dc12ffe6/db_Tarex.public.menu">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/server/model/Menu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="26" column="34" lean-forward="false" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://src:table:/c1f4d9f6/7ce0b0cf-6925-4495-aac9-86e5dc12ffe6/db_Tarex.public.reservation">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/server/repositories/anton_app/RestaurantRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="8" column="33" lean-forward="false" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+          <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/server/security/config/WebSecurityConfig.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/server/controllers/anton_app/RestaurantController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="25" column="12" lean-forward="false" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+        <state relative-caret-position="323">
+          <caret line="25" column="34" lean-forward="true" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/server/transfer/TokenDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="16" column="56" lean-forward="false" selection-start-line="16" selection-start-column="56" selection-end-line="16" selection-end-column="56" />
-          <folding>
-            <element signature="e#385#386#0" expanded="false" />
-            <element signature="e#448#449#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3543,160 +3332,303 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/server/controllers/aizat_app/LoginRestaurantController.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.16.RELEASE/spring-webmvc-4.3.16.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/server/repositories/anton_app/TokensRestaurantRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/server/services/LoginRestaurantServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="39" column="36" lean-forward="false" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
+        <state relative-caret-position="139">
+          <caret line="532" column="0" lean-forward="false" selection-start-line="532" selection-start-column="0" selection-end-line="532" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/server/model/Futures.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/server/transfer/TokenDto.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
+        <state relative-caret-position="153">
+          <caret line="12" column="27" lean-forward="false" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+          <folding>
+            <element signature="e#266#267#0" expanded="true" />
+            <element signature="e#319#320#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/server/transfer/UserDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
           <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/server/forms/ReservationForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" column="27" lean-forward="true" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/server/model/Restaurants.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        <state relative-caret-position="119">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/server/model/Role.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/server/model/State.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/server/model/Token.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/server/model/TokenRestaurant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/server/model/Rating.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="14" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/server/model/LoginRestaurant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/server/model/Address.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/server/model/Restaurant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="30" column="22" lean-forward="false" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/server/model/Login.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/server/model/Menu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="27" column="35" lean-forward="false" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/server/model/Review.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="27" column="72" lean-forward="false" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="72" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/server/model/Product.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="26" column="22" lean-forward="false" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/c1f4d9f6/7ce0b0cf-6925-4495-aac9-86e5dc12ffe6/db_Tarex.public.menu">
+    <entry file="das://table:/c1f4d9f6/7ce0b0cf-6925-4495-aac9-86e5dc12ffe6/db_Tarex.public.product">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="das://table:/c1f4d9f6/7ce0b0cf-6925-4495-aac9-86e5dc12ffe6/db_Tarex.public.product">
+    <entry file="das://table:/c1f4d9f6/7ce0b0cf-6925-4495-aac9-86e5dc12ffe6/db_Tarex.public.address">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/server/services/ReservationService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jpa/1.11.11.RELEASE/spring-data-jpa-1.11.11.RELEASE.jar!/org/springframework/data/jpa/repository/JpaRepository.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="33" column="6" lean-forward="false" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.16.RELEASE/spring-web-4.3.16.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="123" column="0" lean-forward="false" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/server/controllers/anton_app/ReservationController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="15" column="18" lean-forward="false" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/server/services/LoginServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/server/repositories/anton_app/ReservationRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="99" lean-forward="false" selection-start-line="10" selection-start-column="99" selection-end-line="10" selection-end-column="99" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/c1f4d9f6/7ce0b0cf-6925-4495-aac9-86e5dc12ffe6/db_Tarex.public.reservation">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/c1f4d9f6/7ce0b0cf-6925-4495-aac9-86e5dc12ffe6/db_Tarex.public.reservation">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/c1f4d9f6/7ce0b0cf-6925-4495-aac9-86e5dc12ffe6/db_Tarex.public.reservation">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/c1f4d9f6/7ce0b0cf-6925-4495-aac9-86e5dc12ffe6/db_Tarex.public.reservation">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/c1f4d9f6/7ce0b0cf-6925-4495-aac9-86e5dc12ffe6/db_Tarex.public.reservation">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/c1f4d9f6/7ce0b0cf-6925-4495-aac9-86e5dc12ffe6/db_Tarex.public.reservation">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/c1f4d9f6/7ce0b0cf-6925-4495-aac9-86e5dc12ffe6/db_Tarex.public.reservation">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/c1f4d9f6/7ce0b0cf-6925-4495-aac9-86e5dc12ffe6/db_Tarex.public.reservation">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/c1f4d9f6/7ce0b0cf-6925-4495-aac9-86e5dc12ffe6/db_Tarex.public.reservation">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/c1f4d9f6/7ce0b0cf-6925-4495-aac9-86e5dc12ffe6/db_Tarex.public.reservation">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/c1f4d9f6/7ce0b0cf-6925-4495-aac9-86e5dc12ffe6/db_Tarex.public.reservation">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/c1f4d9f6/7ce0b0cf-6925-4495-aac9-86e5dc12ffe6/db_Tarex.public.reservation">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/c1f4d9f6/7ce0b0cf-6925-4495-aac9-86e5dc12ffe6/db_Tarex.public.reservation">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/c1f4d9f6/7ce0b0cf-6925-4495-aac9-86e5dc12ffe6/db_Tarex.public.reservation">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/c1f4d9f6/7ce0b0cf-6925-4495-aac9-86e5dc12ffe6/db_Tarex.public.reservation">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/c1f4d9f6/7ce0b0cf-6925-4495-aac9-86e5dc12ffe6/db_Tarex.public.reservation">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/server/model/Restaurant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="58" column="36" lean-forward="false" selection-start-line="58" selection-start-column="36" selection-end-line="58" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/server/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="47" column="30" lean-forward="false" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/server/model/Reservation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="28" column="37" lean-forward="false" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/c1f4d9f6/7ce0b0cf-6925-4495-aac9-86e5dc12ffe6/db_Tarex.public.reservation">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/c1f4d9f6/7ce0b0cf-6925-4495-aac9-86e5dc12ffe6/db_Tarex.public.reservation">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/c1f4d9f6/7ce0b0cf-6925-4495-aac9-86e5dc12ffe6/db_Tarex.public.reservation">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/c1f4d9f6/7ce0b0cf-6925-4495-aac9-86e5dc12ffe6/db_Tarex.public.token">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/server/services/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="67" column="48" lean-forward="false" selection-start-line="67" selection-start-column="48" selection-end-line="67" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/server/services/ReservationServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="32" column="36" lean-forward="false" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/c1f4d9f6/7ce0b0cf-6925-4495-aac9-86e5dc12ffe6/db_Tarex.public.reservation">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/c1f4d9f6/7ce0b0cf-6925-4495-aac9-86e5dc12ffe6/db_Tarex.public.reservation">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
@@ -3710,90 +3642,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/server/forms/LoginForm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="8" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/server/repositories/anton_app/UsersRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/server/controllers/anton_app/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="28" column="14" lean-forward="false" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/1.13.11.RELEASE/spring-data-commons-1.13.11.RELEASE.jar!/org/springframework/data/repository/CrudRepository.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="11" column="20" lean-forward="false" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/server/controllers/anton_app/RegistrationController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/server/services/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="8" column="9" lean-forward="false" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/server/model/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="31" column="32" lean-forward="false" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/c1f4d9f6/7ce0b0cf-6925-4495-aac9-86e5dc12ffe6/db_Tarex.public.token_restaurant">
+    <entry file="das://table:/c1f4d9f6/7ce0b0cf-6925-4495-aac9-86e5dc12ffe6/db_Tarex.public.review_db">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/server/forms/LoginRestaurantForm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="8" column="18" lean-forward="false" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/server/forms/UserForm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/server/services/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="27" column="49" lean-forward="false" selection-start-line="27" selection-start-column="49" selection-end-line="27" selection-end-column="49" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3801,22 +3653,6 @@
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/server/controllers/anton_app/ReservationController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/server/controllers/anton_app/RestaurantController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>

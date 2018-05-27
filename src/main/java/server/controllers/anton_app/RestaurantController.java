@@ -24,11 +24,6 @@ public class RestaurantController {
     @GetMapping("/restaurant/id/{restaurantId}")
     public Restaurant getRestaurantById(@PathVariable("restaurantId") Long restaurantId){
         System.out.println("zbs");
-        return restaurantRepository.findById(restaurantId);
-    }
-    @GetMapping("/restaurant/id")
-    public List<Restaurant> getRestaurants() {
-        System.out.println("xer2");
-        return restaurantRepository.findAll();
+        return restaurantRepository.findOneById(restaurantId);
     }
 }

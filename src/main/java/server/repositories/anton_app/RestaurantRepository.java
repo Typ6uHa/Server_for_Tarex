@@ -6,5 +6,5 @@ import server.model.Restaurant;
 public interface RestaurantRepository extends JpaRepository<Restaurant,Long> {
     Restaurant findFirstByName(String name);
     Restaurant findOneByLogin(String login);
-    Restaurant findById(Long id);
+    Restaurant findOneById(Long id);
 }
