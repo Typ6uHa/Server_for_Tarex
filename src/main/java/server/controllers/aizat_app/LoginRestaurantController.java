@@ -34,5 +34,5 @@ public class LoginRestaurantController {
         LoginRestaurant login = new LoginRestaurant(loginRestaurantService.login(loginForm), restaurant);
         return ResponseEntity.ok(login);
     }
-    
+
 }

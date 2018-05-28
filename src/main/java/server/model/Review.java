@@ -28,5 +28,5 @@ public class Review {
     @JoinColumn(name = "review_id",insertable = false,updatable = false)
     private User user;
 
-    private String rewiew;
+    private String review;
 }

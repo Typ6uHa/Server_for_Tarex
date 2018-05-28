@@ -1,6 +1,7 @@
 package server.model;
 
 import com.fasterxml.jackson.annotation.JsonIdentityInfo;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.ObjectIdGenerators;
 import lombok.*;
 
@@ -23,6 +24,7 @@ public class Restaurant {
 
     private String name;
 
+    @Column(name = "login",unique = true)
     private String login;
 
     private String password;
@@ -57,6 +59,7 @@ public class Restaurant {
     private List<Review> reviews;
 
     @OneToMany(mappedBy = "restaurant")
+    @JsonIgnore
     private List<Reservation> reservation;
 
 }

@@ -36,6 +36,7 @@ public class ReservationServiceImpl implements ReservationService {
                                     .countPeople(reservationForm.getCountPeople())
                                     .day(reservationForm.getDay())
                                     .time(reservationForm.getTime())
+                                    .description(reservationForm.getDescription())
                                     .statusReservation(StatusReservation.ACTIVE)
                                     .build();
         reservationRepository.save(reservation);

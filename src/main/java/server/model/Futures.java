@@ -23,13 +23,11 @@ public class Futures {
     @JoinColumn(name = "futures_id")
     private Restaurant restaurant;
 
-    private int avgPrice;
-
     private boolean wifiExists;
 
     private boolean childFood;
 
-    private boolean dressCode;
+    private boolean hookahExists;
 
-    private boolean takeawayFood;
+    private boolean dance;
 }

@@ -1,6 +1,7 @@
 package server.model;
 
 import com.fasterxml.jackson.annotation.JsonIdentityInfo;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.ObjectIdGenerators;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -28,6 +29,7 @@ public class User {
     private String firstName;
     private String lastName;
 
+    @Column(name = "login",unique = true)
     private String login;
     private String hashPassword;
 
@@ -43,8 +45,10 @@ public class User {
     private List<Review> review;
 
     @OneToMany(mappedBy = "user")
+    @JsonIgnore
     List<Token> tokens;
 
-    @OneToMany(mappedBy = "user")
-    private List<Reservation> reservation;
+    @OneToOne(mappedBy = "user")
+    @JsonIgnore
+    private Reservation reservation;
 }
